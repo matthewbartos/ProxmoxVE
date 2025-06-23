@@ -9,7 +9,7 @@ const isMobile = typeof window !== "undefined" && window.innerWidth < 640;
 
 export const navbarLinks = [
 	{
-		href: `https://github.com/community-scripts/${basePath}`,
+		href: `https://github.com/matthewbartos/${basePath}`,
 		event: "Github",
 		icon: <FaGithub className="h-4 w-4" />,
 		text: "Github",
@@ -21,18 +21,18 @@ export const navbarLinks = [
 		text: "Discord",
 	},
 	{
-		href: `https://github.com/community-scripts/${basePath}/blob/main/CHANGELOG.md`,
+		href: `https://github.com/matthewbartos/${basePath}/blob/main/CHANGELOG.md`,
 		event: "Change Log",
 		icon: <Scroll className="h-4 w-4" />,
 		text: "Change Log",
-    mobileHidden: true,
+		mobileHidden: true,
 	},
 	{
-		href: `https://github.com/community-scripts/${basePath}/discussions`,
+		href: `https://github.com/matthewbartos/${basePath}/discussions`,
 		event: "Discussions",
 		icon: <MessagesSquare className="h-4 w-4" />,
 		text: "Discussions",
-    mobileHidden: true,
+		mobileHidden: true,
 	},
 ].filter(Boolean) as {
 	href: string;
@@ -45,28 +45,28 @@ export const navbarLinks = [
 export const mostPopularScripts = ["post-pve-install", "docker", "homeassistant"];
 
 export const analytics = {
-  url: "analytics.proxmoxve-scripts.com",
-  token: "aefee1b9-2a12-4ac2-9d82-a63113edc62e",
+	url: "analytics.proxmoxve-scripts.com",
+	token: "aefee1b9-2a12-4ac2-9d82-a63113edc62e",
 };
 
 export const AlertColors = {
-  warning: "border-red-500/25 bg-destructive/25",
-  info: "border-cyan-500/25 bg-cyan-50 dark:border-cyan-900 dark:bg-cyan-900/25",
+	warning: "border-red-500/25 bg-destructive/25",
+	info: "border-cyan-500/25 bg-cyan-50 dark:border-cyan-900 dark:bg-cyan-900/25",
 };
 
 export const OperatingSystems: OperatingSystem[] = [
-  {
-    name: "Debian",
-    versions: [
-      { name: "11", slug: "bullseye" },
-      { name: "12", slug: "bookworm" },
-    ],
-  },
-  {
-    name: "Ubuntu",
-    versions: [
-      { name: "22.04", slug: "jammy" },
-      { name: "24.04", slug: "noble" },
-    ],
-  },
+	{
+		name: "Debian",
+		versions: [
+			{ name: "11", slug: "bullseye" },
+			{ name: "12", slug: "bookworm" },
+		],
+	},
+	{
+		name: "Ubuntu",
+		versions: [
+			{ name: "22.04", slug: "jammy" },
+			{ name: "24.04", slug: "noble" },
+		],
+	},
 ];

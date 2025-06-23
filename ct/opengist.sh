@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
-# Copyright (c) 2021-2025 community-scripts ORG
+source <(curl -fsSL https://raw.githubusercontent.com/matthewbartos/ProxmoxVE/main/misc/build.func)
+# Copyright (c) 2021-2025 matthewbartos ORG
 # Author: Jonathan (jd-apprentice)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/matthewbartos/ProxmoxVE/raw/main/LICENSE
 # Source: https://opengist.io/
 
 APP="Opengist"

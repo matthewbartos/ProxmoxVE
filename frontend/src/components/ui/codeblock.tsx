@@ -68,7 +68,7 @@ const handleCopy = (type: string, value: string) => {
             <div>
               <Button className="text-white">
                 <Link
-                  href={`https://github.com/community-scripts/${basePath}`}
+                  href={`https://github.com/matthewbartos/${basePath}`}
                   data-umami-event="Star on Github"
                   target="_blank"
                 >
@@ -93,7 +93,7 @@ const handleCopy = (type: string, value: string) => {
 
 export interface CodeBlockProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof buttonVariants> {
+  VariantProps<typeof buttonVariants> {
   asChild?: boolean;
   code: string;
 }

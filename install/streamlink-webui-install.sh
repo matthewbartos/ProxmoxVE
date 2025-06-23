@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2021-2025 community-scripts ORG
+# Copyright (c) 2021-2025 matthewbartos ORG
 # Author: CrazyWolf13
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/matthewbartos/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/CrazyWolf13/streamlink-webui
 
 # Import Functions und Setup

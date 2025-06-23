@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   close-discussion:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'matthewbartos/ProxmoxVE'
     runs-on: runner-cluster-htl-set
 
     steps:

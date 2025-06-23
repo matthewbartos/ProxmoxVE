@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # Co-Author: remz1337
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/matthewbartos/ProxmoxVE/raw/main/LICENSE
 # Source: https://frigate.video/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -44,11 +44,11 @@ msg_ok "Set Up Hardware Acceleration"
 
 #RELEASE=$(curl -fsSL https://api.github.com/repos/blakeblackshear/frigate/releases/latest | jq -r '.tag_name')
 msg_ok "Stop spinner to prevent segmentation fault"
-msg_info "Installing Frigate v0.14.1 (Perseverance)"
+msg_info "Installing Frigate v0.15.1 (Perseverance)"
 if [ -n "$SPINNER_PID" ] && ps -p $SPINNER_PID >/dev/null; then kill $SPINNER_PID >/dev/null; fi
 cd ~
 mkdir -p /opt/frigate/models
-curl -fsSL "https://github.com/blakeblackshear/frigate/archive/refs/tags/v0.14.1.tar.gz" -o "frigate.tar.gz"
+curl -fsSL "https://github.com/blakeblackshear/frigate/archive/refs/tags/v0.15.1.tar.gz" -o "frigate.tar.gz"
 tar -xzf frigate.tar.gz -C /opt/frigate --strip-components 1
 rm -rf frigate.tar.gz
 cd /opt/frigate

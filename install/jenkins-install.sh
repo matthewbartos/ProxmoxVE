@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Copyright (c) 2021-2025 community-scripts ORG
+# Copyright (c) 2021-2025 matthewbartos ORG
 # Author: kristocopani
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/matthewbartos/ProxmoxVE/raw/main/LICENSE
 # Source: https://www.jenkins.io/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
